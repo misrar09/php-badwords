@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello php World</title>
-
-    <?php $name = "Boolean" ?>
 </head>
 
 <body>
-    <h1> <?php echo "Hello php  World from" . $name ?>  </h1>
+    <?php $name = "Boolean" ?>
+    <?php $language = "php" ?>
+
+
+
+    <h1> <?php echo "Hello $language  World from " . $name ?>  </h1>
     
 </body>
 </html>
